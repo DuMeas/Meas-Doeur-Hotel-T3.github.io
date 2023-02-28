@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Meas Doeur Hotel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/Css/Hotel Resort/style.css">
+  <!-- <link rel="stylesheet" href="/Hotel Booking/Style(T2).css"> -->
+
+  <script src="/Hotel Booking/js/jquery.countdown.js"></script>
+  <script src="/Hotel Booking/js/jquery.countdown.min.js"></script>
+
+  <script src="js/jquery.countdown.js" charset="utf-8"></script>
+  <script src="js/jquery.countdown.min.js" charset="utf-8"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+
+</head>
+
+<body>
+  <section class="head">
+    <div class="container flex1">
+      <div class="scoial">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="logo">
+        <img src="/image/logo.jpg" alt="" width="80px">
+      </div>
+      <div class="address">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>205 chomkamon, norodom Street Front The Cambodia</span>
+      </div>
+    </div>
+  </section>
+
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar flex1">
+        <div class="sticky_logo logo">
+          <img src="/image/logo.jpg" alt="" width="80%">
+        </div>
+
+        <ul class="nav-menu">
+          <li> <a href="#home">HOME</a> </li>
+          <li> <a href="about.html">About</a> </li>
+          <li> <a href="#room">Rooms</a> </li>
+          <li> <a href="services.html">Services</a> </li>
+          <li> <a href="Index(T2).html">Shop</a> </li>
+          <li> <a href="reservation.html">Reservation</a> </li>
+          <li> <a href="#gallary">Gallary</a> </li>
+          <li> <a href="#blog">Blog</a> </li>
+          <li> <a href="signup.html">SIGN UP</a> </li>
+          <li> <a href="login.html">Login</a> </li>
+          <li> <a href="contact.html">Contact</a> </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="head_contact">
+          <i class="fas fa-phone-volume"></i>
+          <span>+000 1234 5678</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobliemmenu);
+
+    function mobliemmenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0)
+    })
+  </script>
+
+  <section class="home" id="home">
+    <div class="container">
+      <h1>Make Memories</h1>
+      <p>Discover the place where you have fun & enjoy a lot</p>
+
+      <div class="content grid">
+        <div class="box">
+          <span>ARRIVAL DATE </span> <br>
+          <input type="date" placeholder="29/20/2021">
+        </div>
+        <div class="box">
+          <span>DEPARTURE DATE </span> <br>
+          <input type="date" placeholder="29/20/2021">
+        </div>
+        <div class="box">
+          <span>ADULTS</span> <br>
+          <input type="number" placeholder="01">
+        </div>
+        <div class="box">
+          <span>CHILDREN </span> <br>
+          <input type="number" placeholder="01">
+        </div>
+        <div class="box">
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="about" id="about">
+    <div class="container">
+      <div class="heading">
+        <h5>EXPLORE</h5>
+        <h2>We are cool to give you pleasure
+        </h2>
+      </div>
+
+      <div class="content flex  top">
+        <div class="left">
+          <h3>As much as comfort want to get from us everything
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+        <div class="right">
+          <img src="/image/About.jpg" alt="" width="640px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="wrapper">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="heading">
+            <h5>THE CITY VIEW</h5>
+            <h3>A charming view of the city</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p> Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="item">
+          <div class="heading">
+            <h5>THE CITY VIEW</h5>
+            <h3>A charming view of the city</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p> Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="item">
+          <div class="heading">
+            <h5>THE CITY VIEW</h5>
+            <h3>A charming view of the city</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p> Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+  <section class="wrapper2">
+    <div class="container">
+      <div class="heading mtop">
+        <h5>FACILITIES</h5>
+        <h2>Giving entirely awesome </h2>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>parkn ipsum dolor sit amet, consectetur adiing elit sed do eiu</p>
+          <span class='far fa-long-arrow-alt-right'></span>
+        </div>
+        <div class="box">
+          <i class="fas fa-mug-hot"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>parkn ipsum dolor sit amet, consectetur adiing elit sed do eiu</p>
+          <span class='far fa-long-arrow-alt-right'></span>
+        </div>
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>parkn ipsum dolor sit amet, consectetur adiing elit sed do eiu</p>
+          <span class='far fa-long-arrow-alt-right'></span>
+        </div>
+        <div class="box">
+          <i class="far fa-water"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>parkn ipsum dolor sit amet, consectetur adiing elit sed do eiu</p>
+          <span class='far fa-long-arrow-alt-right'></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="room wrapper2 top" id="room">
+    <div class="container">
+      <div class="heading">
+        <h5>OUR ROOMS</h5>
+        <h2>Fascinating rooms & suites </h2>
+      </div>
+      <div class="content flex mtop">
+        <div class="left grid2">
+          <div class="box">
+            <i class="fas fa-desktop"></i>
+            <p>Free Cost</p>
+            <h3>No booking fee</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-dollar-sign"></i>
+            <p>Free Cost</p>
+            <h3>Best rate guarantee</h3>
+          </div>
+          <div class="box">
+            <i class="fab fa-resolving"></i>
+            <p>Free Cost</p>
+            <h3>Reservations 24/7</h3>
+          </div>
+          <div class="box">
+            <i class="fal fa-alarm-clock"></i>
+            <p>Free Cost</p>
+            <h3>High-speed Wi-Fi</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-mug-hot"></i>
+            <p>Free Cost</p>
+            <h3>Free breakfast</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-user-tie"></i>
+            <p>Free Cost</p>
+            <h3>One person free</h3>
+          </div>
+        </div>
+        <div class="right">
+          <img src="/image/Badroom-7.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timer about wrapper">
+    <div class="background"> </div>
+    <div class="container">
+      <div class="heading">
+        <h5>LAST MINUTE!</h5>
+        <h2> <span>Incredible!</span> Are you coming today</h2>
+      </div>
+
+      <div id="time" class="flex1 mtop"> </div>
+    </div>
+  </section>
+  <script src="js/jquery.countdown.js" charset="utf-8"></script>
+  <script src="js/jquery.countdown.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $('#time').countdown('2024/01/01', function(event) {
+      $(this).html(event.strftime(
+        '<div class="clock"><span>%d</span> <p>Days</p></div> ' +
+        '<div class="clock"><span>%H</span> <p>Hours</p></div> ' +
+        '<div class="clock"><span>%M</span> <p>Minutes</p></div> ' +
+        '<div class="clock"><span>%S</span> <p>Seconds</p></div> '
+      ));
+    });
+  </script>
+
+
+  <section class="offer mtop" id="services">
+    <div class="container">
+      <div class="heading">
+        <h5>EXCLUSIVE OFFERS </h5>
+        <h3>You can get an exclusive offer </h3>
+      </div>
+
+      <div class="content grid2 mtop">
+        <div class="box flex">
+          <div class="left">
+            <img src="/image/Service.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Deluxe Room</h4>
+            <div class="rate flex">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h5>From $50.6/night</h5>
+            <button class="flex1">
+              <span>Check Availability</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="/image/Badroom-3.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Deluxe Room</h4>
+            <div class="rate flex">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h5>From $50.6/night</h5>
+            <button class="flex1">
+              <span>Check Availability</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="/image/Badroom-4.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Deluxe Room</h4>
+            <div class="rate flex">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h5>From $50.6/night</h5>
+            <button class="flex1">
+              <span>Check Availability</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="/image/Badroom-5.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Deluxe Room</h4>
+            <div class="rate flex">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h5>From $50.6/night</h5>
+            <button class="flex1">
+              <span>Check Availability</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="area top">
+    <div class="container">
+      <div class="heading">
+        <h5>RESTAURANT</h5>
+        <h3>The area we cover under ecorik</h3>
+      </div>
+
+      <div class="content flex mtop">
+        <div class="left">
+          <img src="/image/About.jpg" alt="" width="540px">
+        </div>
+        <div class="right">
+          <ul>
+            <li>Restaurant </li>
+            <li>Swimming pool </li>
+            <li>Conference room</li>
+          </ul>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer2 about wrapper timer top" id="shop">
+    <div class="container">
+      <div class="heading">
+        <h5>EXCLUSIVE OFFERS </h5>
+        <h3>You can get an exclusive offer </h3>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <h5>UP TO 30% OFF</h5>
+          <h3>Swimming for man</h3>
+          <span>4.5 <label>(432 Reviews)</label> </span>
+          <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+        <div class="box">
+          <h5>UP TO 30% OFF</h5>
+          <h3>Swimming for man</h3>
+          <span>4.5 <label>(432 Reviews)</label> </span>
+          <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+        <div class="box">
+          <h5>UP TO 30% OFF</h5>
+          <h3>Swimming for man</h3>
+          <span>4.5 <label>(432 Reviews)</label> </span>
+          <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="customer top" id="testimonials">
+    <div class="container">
+      <div class="heading">
+        <h5>TESTIMONIALS </h5>
+        <h3>What customers say </h3>
+      </div>
+
+      <div class="owl-carousel owl-theme mtop">
+        <div class="item">
+          <div class="rate">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Excellent Swimming</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="admin flex">
+            <div class="img">
+              <img src="/image/swim.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Ayman Jensi</h3>
+              <span>Manager</span>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="rate">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Excellent Swimming</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="admin flex">
+            <div class="img">
+              <img src="/image/swimming-pool.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Ayman Jensi</h3>
+              <span>Manager</span>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="rate">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Excellent Swimming</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="admin flex">
+            <div class="img">
+              <img src="/image/Outside.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Ayman Jensi</h3>
+              <span>Manager</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: false,
+      navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+  <section class="gallary top" id="gallary">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="/image/hotelNight.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/image/hotelNight2.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/image/hotelNight3.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/image/Bedroom-1.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/image/Bedroom-2.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/image/Room-1.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/image/Room-2.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/image/Room-3.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      slideTransition: 'linear',
+      autoplayTimeout: 4000,
+      autoplaySpeed: 4000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+
+
+  <section class="blog top" id="blog">
+    <div class="container">
+      <div class="heading">
+        <h5>OUR BLOG</h5>
+        <h3>News & articles updates</h3>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <div class="img">
+            <img src="/image/hotelNight2.jpg" alt="">
+            <span>HOTEL</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="/image/Bedroom-1.jpg" alt="">
+            <span>HOTEL</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="/image/Badroom-4.jpg" alt="">
+            <span>HOTEL</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="map top">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14131.036667732067!2d85.32395955!3d27.69383745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1638187678048!5m2!1sen!2snp" width="600" height="450" style="border:0;"
+      allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+
+  <footer>
+    <div class="container top">
+      <div class="subscribe" id="contact">
+        <h2>Subscribe newsletter</h2>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="input flex">
+          <input type="email" placeholder="Your Email address">
+          <button class="flex1">
+            <span>Subscribe</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <div class="logo">
+            <img src="/image/logo.jpg" alt="" width="80%">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="social flex">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i>Big Data</li>
+            <li><i class="fas fa-angle-double-right"></i>Wellness</li>
+            <li><i class="fas fa-angle-double-right"></i>Spa Gallery</li>
+            <li><i class="fas fa-angle-double-right"></i>Reservation</li>
+            <li><i class="fas fa-angle-double-right"></i>FAQ</li>
+            <li><i class="fas fa-angle-double-right"></i>Contact</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Services</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i>Restaurant</li>
+            <li><i class="fas fa-angle-double-right"></i>Swimming Pool</li>
+            <li><i class="fas fa-angle-double-right"></i>Wellness & Spa</li>
+            <li><i class="fas fa-angle-double-right"></i>Conference Room</li>
+            <li><i class="fas fa-angle-double-right"></i>Events</li>
+            <li><i class="fas fa-angle-double-right"></i>Adult Room</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Services</h2>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>205 chomkamon, norodom Street Front The Cambodia</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+123 456 7890</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>Measdoeur@pp.bbu.edu.kh</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/Hotel Booking/js/jquery.countdown.js"></script>
+  <script src="/Hotel Booking/js/jquery.countdown.min.js"></script>
+
+  <script src="js/jquery.countdown.js" charset="utf-8"></script>
+  <script src="js/jquery.countdown.min.js" charset="utf-8"></script>
+
+
+
+
+
+  <!-- <body style="font-family: sans-serif;">
+    <div class="navbar" style="padding-left: 210px;">
+        <div class="tabs"> 
+        <a href="index.html"><span class="logo" style="margin-right: 90px;">STARHotel</span>
+        </a>
+            <a href="index.html" class="active" style="color: chocolate;">HOME</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+    <div>
+        <img src="img/covers/home-banner.jpg" width="100%"/ >
+    </div>
+        <center style="background-color:chocolate;">
+            <div class="row" style="margin: -4px 110px; background-color: chocolate;">
+                <div class="column">    
+                    <select> 
+                            <option>&nbsp;&nbsp;-- Select Hotel --</option>
+                            <option>&nbsp;&nbsp;Luxe Hotel</option>
+                            <option>&nbsp;&nbsp;Deluxe Hotel</option>
+                            <option>&nbsp;&nbsp;Five Star Hotel</option>
+                    </select>
+                    <label>Hotel Type</label>
+                </div>
+                <div class="column">
+                    <input type="date"><br/><br/>
+                    <label>Check In</label>
+                </div>        
+                <div class="column">
+                    <input type="date"><br/><br/>
+                    <label>Check Out</label>
+                </div>
+                <div class="column">                
+                    <select> 
+                            <option>&nbsp;&nbsp;-- Guests --</option>
+                            <option>&nbsp;&nbsp;1</option>
+                            <option>&nbsp;&nbsp;2</option>
+                            <option>&nbsp;&nbsp;3</option>
+                            <option>&nbsp;&nbsp;4</option>
+                            <option>&nbsp;&nbsp;5+</option>
+                    </select>
+                    <label>Number of Guest</label>
+                </div>
+                <div class="column">                
+                    <a href="index.html">
+                        <button class="bttn">Submit</button>
+                    </a>
+                </div>
+            </div>
+        </center>
+        <br/>
+        <br/>
+        <br/>
+        <a href="about.html" style="color: black;"><h1><u>ABOUT</u></h1></a>
+        <br/>
+        <div style="text-align: right;">
+            <img src="img/covers/about-3.jpg" height="350px" align="left" style="padding-left: 240px" >
+            <div style="padding-right: 240px;">
+                <h1 style="text-align: right;">About STARHotel</h1><br>
+                <span>
+                    STARHotel is far far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    Far far away, behind the word mountains, far from the countries. <br>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    Far far away, behind the word mountains, far from the countries. <br>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br/>
+                    
+                    Far far away, behind the word mountains, far from the countries. <br>Separated they live in Bookmarksgrove right at the coast of the Semantics.
+                </span>
+                <br/>
+            </div>
+        </div>  
+        <br/>
+        <br/>
+        <br/>
+        <br/>  
+        <br/>   
+        <a href="services.html" style="color: black;"><h1><u>SERVICES</u></h1></a>
+        <br/>
+            <div class="row" style="margin: 0px 240px;">
+            <div class="column3">
+              <span style='font-size:20px;'><b>Accessible Location</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>        
+            <div class="column3">
+              <span style='font-size:20px;'><b>Open 24/7</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>        
+            <div class="column3">
+              <span style='font-size:20px;'><b>Reservation</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>        
+            <div class="column3">
+              <span style='font-size:20px;'><b>Friendly Staff</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>        
+            <div class="column3">
+              <span style='font-size:20px;'><b>Free Wifi</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>        
+            <div class="column3">
+              <span style='font-size:20px;'><b>Accessible Location</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>        
+        </div>
+        <br/>    
+        <br/>
+        <br/>  
+        <a href="rooms.html" style="color: black;"><h1><u>ROOMS</u></h1></a>
+        <br/>  
+        <div class="row" style="margin: 0px 240px;">
+            <div class="column2">
+              <img src="img/rooms/1.jpg" style="width:100%">
+              <span style='font-size:20px;'><b>ROOM 1</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>
+            <div class="column2">
+              <img src="img/rooms/2.jpg" style="width:100%">
+              <span style='font-size:20px;'><b>ROOM 2</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>
+            <div class="column2">
+              <img src="img/rooms/3.jpg" style="width:100%">
+              <span style='font-size:20px;'><b>ROOM 3</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>
+            <div class="column2">
+              <img src="img/rooms/4.jpg" style="width:100%">
+              <span style='font-size:20px;'><b>ROOM 4</b></span><br/><br/>
+              <span style='font-size:17px;'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</span><br/>
+            </div>
+        </div>  
+        <br/>
+        <br/>  
+        <br/>  
+        <br/> 
+        <a href="contact.html" style="color: black;"><h1><u>CONTACT US</u></h1></a>
+            <div class="row" style="margin: 0px 300px;">
+                <form action="#">
+                    <div class="row" style="padding-left: 0px;">
+                        <div class="column" style="padding-left: 160px;">
+                            <input type="text" placeholder="Full Name" style="width: 650px; height: 50px; padding: 15px; border-color: chocolate; border-radius: 10px;"><br/><br/>
+                            <input type="email" placeholder="Email Address" style="width: 650px; height: 50px; padding: 15px; border-color: chocolate; border-radius: 10px;"><br/><br/>
+                            <input type="text" placeholder="Subject" style="width: 650px; height: 50px; padding: 15px; border-color: chocolate; border-radius: 10px;"><br/><br/>
+                            <input type="text" placeholder="Message" style="width: 650px; height: 150px; border-color: chocolate; border-radius: 10px;"><br/><br/>
+                        </div>
+                    </div>
+                        <a href="#">
+                            <button class="bttn"
+                                   value="SEND MESSAGE"
+                                   style="width: 650px;
+                                          font-weight: bold; 
+                                          font-size: 17px;
+                                          background-color: chocolate; 
+                                          color: white; 
+                                          border-color: chocolate;
+                                          border-style: solid;
+                                          border-radius: 10px;
+                                          margin-left: 160px;
+                                          ">Send Message
+                            </button>
+                        </a>
+                </form>
+            </div>
+            <br/>
+            <br/>   
+            <br/>   
+            <br/>  
+            <br/>   
+            <footer>
+                <a href="index.html" class="logo" style="text-decoration: none; color: white; font-size: 20px; ">STARHotel</a>
+                <span>&nbsp;|&nbsp; www.starhotel.info.com</span>
+            </footer>
+    <style>
+    body {
+        margin: 0;
+        
+    }
+        
+    .logo {
+        font-weight: bold;
+        color: chocolate;
+        font-size: 30px;
+        
+    }
+            
+    .navbar {
+        overflow: hidden;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        font-weight: bold;
+    }
+    
+    .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 19px 19px;
+        text-decoration: none;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    
+    .navbar a:hover {
+        background: white;
+        color: chocolate;
+        border-radius: 10px;
+    }
+        
+    .tabs {
+        padding: 19px 19px;
+        }
+    
+    .container {
+        text-align: center;
+        color: white;
+    }
+    
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-family: inherit;
+        font-size: 70px;
+    }
+    
+    .active {
+        background-color: white; 
+        color: chocolate; 
+        border-radius: 10px;
+        font-weight: bold;
+    }
+        
+    * {
+        box-sizing: border-box;
+    }
+    
+    .column {
+        float: left;
+        width: 20%;
+        padding: 17px;
+    }
+    
+    .column2 {
+        float: left;
+        width: 50%;
+        padding: 17px;
+    }
+    
+    .column3 {
+        float: left;
+        width: 33.33%;
+        padding: 17px;
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    h1, p {
+        text-align: center;
+    
+    }
+        
+    label {
+        color: white;
+        font-weight: bold;
+    }
+        
+    .bttn{
+        width: 240px;
+        height: 50px;
+        background-color: white;
+        font-size: 15px;
+        border: none;
+        font-weight: bold; 
+        background-color:  lightgreen; 
+        border-style: solid;
+        border-color: lightgreen;
+        color: black; 
+    }
+    
+    .bttn:hover{
+        border: 1px solid green;
+        background: forestgreen;
+        color: white;
+    }
+        
+    .navbar button:hover {
+        background: #ddd;
+        color: #f46f3a;
+        border-radius: 10px;
+    }
+        
+    input {
+        width: 240px;
+        height: 50px;
+        padding: 15px;
+        border-style: solid;
+        border-color: white;
+        font-size: 15px;
+        
+    }
+      
+    select {
+        margin-bottom: 15px; 
+        width: 240px; 
+        height: 50px; 
+        font-size: 15px;
+        border-color: white;
+    }
+        
+    footer {
+        text-align: center;
+        padding: 17px;
+        background-color: chocolate;
+        color: white;
+        font-size: 18px;
+    }
+    </style> -->
+    <!-- </body> -->
+
+
+
+
+</body>
+</html>
